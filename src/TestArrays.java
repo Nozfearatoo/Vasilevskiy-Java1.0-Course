@@ -9,7 +9,6 @@ public class TestArrays {
             total += myList[i];
         }
         System.out.println(total);
-
         double max = myList[0];
         for (int i = 0; i < myList.length; i++) {
             if (myList[i] > max) max = myList[i];
