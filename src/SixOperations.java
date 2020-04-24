@@ -10,10 +10,9 @@ public class SixOperations {
         int num2 = in.nextInt();
         System.out.print("Введите третье число: ");
         int num3 = in.nextInt();
-        int avrg = (num1+num2+num3)/3;
-        int avrgdiv = avrg/2;
-
-        System.out.println("Среднее арифметическое: " + avrg); //System.out.println(avrgdiv);
+        double avrg = ((double)(num1+num2+num3))/3;
+        double avrgdiv = avrg/2;
+        System.out.println("Среднее арифметическое: " + avrg); // System.out.println(avrgdiv);
         if (avrgdiv > 3) System.out.println("Программа выполнена корректно");
     }
 }
